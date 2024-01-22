@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/*------------------------------------Обнуляющий стиль-------------------------------------*/
+/*------------------------------------ШАПКА САЙТА-------------------------------------*/
+.hedader {
+}
+.container-hedader {
+    display: flex;
+    padding: 24px 0px 32px 0px;
+    justify-content: space-between;
+}
+.main {
+    display: inline-flex;
+    align-items: center;
+}
+.hedader-logo {
+   display: flex;
+   padding-right:413px ;
+
+}
+
+.hedader-logo-link {
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+.hedader-logo-link span {
+    font-style: italic;
+}
+.icon-logo {
+}
+.main-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.main-item a {
+    color: #111;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.hedader-social {
+    
+}
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.social-item {
+
+}
+.social-item-link{
+
+}
+.icon-link {
+    display: block;
+}
