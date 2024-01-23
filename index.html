@@ -8,29 +8,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Chocolate</title>
   </head>
   <body>
     <header class="hedader">
       <div class="container container-hedader">
-        <nav class="main">
+        <div class="main-mobile">
           <a class="hedader-logo-link" href="./index.html"
             ><span>SIMPLY</span> CHOCOLATE</a
           >
           <div class="hedader-logo">
-            <svg class="icon-logo" width="24" height="24">
+            <svg class="logo-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-chocolate"></use>
             </svg>
           </div>
+        </div>
+
+        <div class="header-burger">
+          <svg class="burger-icon" width="28" height="28">
+            <use href="./images/icons.svg#burger-icons"></use>
+          </svg>
+        </div>
+
+        <!--  
           <ul class="main-list">
             <li class="main-item"><a href="#">Home</a></li>
             <li class="main-item"><a href="#">How it's made?</a></li>
             <li class="main-item"><a href="#">Chocolate is loved</a></li>
           </ul>
-        </nav>
         <div class="hedader-social">
           <ul class="social-list">
             <li class="social-item">
@@ -55,8 +70,130 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </header>
+    <main>
+      <section class="baner">
+        <div class="container container-baner">
+          <h1 class="baner-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="baner-btn">
+            <button class="btn-baner-buy" type="button">Buy now</button>
+            <button class="btn-baner-made" type="button">How it's made</button>
+          </div>
+          <div class="baner-scroll">
+            <p class="title-scroll">scroll down</p>
+            <button class="baner-scroll-btn" type="button">
+              <svg class="icon-scroll" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-fi-rr-angle-small-left"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-block">
+        <div class="container container-info-block">
+          <h2 class="visually-hidden">features</h2>
+          <ul class="title-info-block-list">
+            <li class="title-info-block-item">
+              
+              <div class="icon-info">
+                  <svg class="icon-info-block" width="32" height="32">
+                    <use
+                      href="./images/icons.svg#spoon"
+                    ></use>
+                  </svg>
+                 
+              </div>
+            
+                <h3 class="title-info-block">Unsurpassed taste</h3>
+                <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+          </li>
+            <li class="title-info-block-item">
+              <div class="icon-info">
+                  <svg class="icon-info-block" width="27" height="27">
+                    <use
+                    href="./images/icons.svg#group"
+                    ></use>
+                  </svg>
+                </div>
+                <h3 class="title-info-block">Affordable price</h3>
+                <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
+              </li>
+            
+            <li class="title-info-block-item">
+              
+                <div class="icon-info">
+                  <svg class="icon-info-block" width="32" height="32">
+                    <use
+                      href="./images/icons.svg#chocolate-bar"
+                    ></use>
+                  </svg>
+                </div class="icon-info">
+                <h3 class="title-info-block">Own production</h3>
+                <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
+              
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+        <section class="taste">
+<div class="container container-taste">
+  <h2 class="tittle-taste">IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
+<ul class="teste-list">
+  <li class="teste-item orang">
+    <svg class="icon-taste" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#streamline"
+                    ></use>
+                  </svg>
+  <img class="teste-img" src="./images/CHOCOLATE.png" alt="" width="236" height="176">
+   <h3 class="taste-subtitle ">MILK CHOCOLATE</h3>
+
+  </li>
+  <li class="teste-item">
+    <svg class="icon-taste" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#streamline"
+                    ></use>
+                  </svg>
+  <img class="teste-img" src="./images/Milk.png" alt="" width="236" height="176">
+   <h3 class="taste-subtitle subtitle-dark">Milk</h3>
+
+  </li>
+  <li class="teste-item dark">
+    <svg class="icon-taste" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#streamline"
+                    ></use>
+                  </svg>
+  <img class="teste-img" src="./images/nuts.png" alt="" width="236" height="176">
+   <h3 class="taste-subtitle">nuts</h3>
+
+  </li>
+  <li class="teste-item">
+    <svg class="icon-taste" width="24" height="24">
+                    <use
+                      href="./images/icons.svg#streamline"
+                    ></use>
+                  </svg>
+  <img class="teste-img" src="./images/SWEET CHOCOLATE.png" alt="" width="236" height="176">
+   <h3 class="taste-subtitle subtitle-dark">sEMI - SWEET CHOCOLATE</h3>
+
+  </li>
+</ul>
+
+
+</div>
+        </section>
+    </main>
   </body>
 </html>
