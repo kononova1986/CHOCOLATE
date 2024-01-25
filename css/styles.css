@@ -366,6 +366,16 @@ color: #111;
     background: #FFF;
     padding: 20px 14px;
 }
+.made-img{
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.40) 0%, rgba(17, 17, 17, 0.40) 100%), no-repeat;
+
+Selection colors
+Hex
+#111111 · 40%
+Assets
+
+}
 .made-list {
 display: flex;
 flex-direction: column;
