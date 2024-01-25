@@ -362,12 +362,12 @@ color: #111;
     margin-bottom: 20px;
 }
 .made-wrap {
-    border-radius: 15px;
     background: #FFF;
     padding: 20px 14px;
 }
 .made-img{
     border-radius: 15px;
+    position: relative;
 }
 .made-list {
 display: flex;
