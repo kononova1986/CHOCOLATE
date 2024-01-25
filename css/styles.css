@@ -578,7 +578,7 @@ background: #FFF;
 .btn-loved{
 display: flex;
 padding: 12px 28px;
-background: transparent;
+background-color: transparent;
 border-radius: 100px;
 border: 1px solid #FD9222;
 font-weight: 600;
