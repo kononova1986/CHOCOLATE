@@ -64,6 +64,12 @@ a {
         max-width: 734px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
 /*------------------------------------Обнуляющий стиль-------------------------------------*/
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
 .hedader {
@@ -73,6 +79,7 @@ a {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 14px;
+    align-items: center;
 }
 
 .main-mobile {
@@ -144,6 +151,17 @@ a {
     .header-burger {
         display: none;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-hedader{
+        max-width: 1170px;
+        
+    }
+    .main-mobile{
+        margin-right: 412px;
+    }
+    
 }
 /*-------------------------------BANER МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
 .baner {
@@ -240,7 +258,7 @@ a {
         padding-top: 671px;
     }
     .container-baner {
-        padding: 0 40px;
+       
     }
     .baner-title {
         width: 484px;
@@ -264,6 +282,30 @@ a {
     }
     .baner-scroll {
     }
+}
+@media screen and (min-width: 1200px) {
+.baner {
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        width: 1170px;
+        height: 890px;
+        background-color: rgba(17, 17, 17, 0.6);
+        background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main.desctop.jpg);
+        border-radius: 30px;
+        padding-top: 671px;
+    }
+     .container-baner {
+        width: 1056px;
+        height: 179px;
+        margin: 0 40px;
+    }
+     .baner-btn-tab{
+        width: 1056px;
+     }
 }
 /*-------------------------------INFO БЛОК МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
 
@@ -330,6 +372,18 @@ a {
         gap: 44px 88px;
     }
 }
+@media screen and (min-width: 1200px) {
+   
+    .container-info-block {
+        min-width: 1200px;
+       
+    }
+    .title-info-block-list{
+        margin: 0 30px;
+        gap: 44px 76px;
+    }
+  
+}
 /*-------------------------------TASTE МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
 
 .taste {
@@ -386,6 +440,8 @@ a {
     stroke: #fd9222;
 }
 .teste-img {
+    width:236px; 
+    height:176px;
     margin: 0 auto;
     margin-bottom: 16px;
 }
@@ -419,6 +475,29 @@ a {
     .teste-item-tap {
         display: block;
     }
+}
+   
+@media screen and (min-width: 1200px) {
+    .container-taste{
+   min-width:1200px;
+    margin: 0 auto; 
+    }
+    .teste-list{
+        width: 1136px;
+        margin: 0 20px;
+        gap: 32px;
+        
+    }
+    .teste-item{
+        width: 260px;
+        height: 270px;
+        padding: 28px 23px 82px 23px;
+        
+    }
+    .teste-img {
+    width: 214px;
+    height: 160px;
+}
 }
 
 /*------------------------------- MADE МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
@@ -483,7 +562,7 @@ a {
     gap: 18px;
 }
 .made-item {
-    max-width: 291px;
+    width: 291px;
     position: relative;
     padding-left: 16px;
 }
@@ -518,7 +597,7 @@ a {
         gap: 18px;
     }
     .made-item {
-        min-width: 550px;
+       width: 550px;
     }
     .made-wrap {
         display: flex;
@@ -529,6 +608,28 @@ a {
     }
     .made-subtitle {
         min-width: 350px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container-made{
+        min-width: 1200px;
+
+    }
+    .inline-made{
+display: flex;
+flex-direction: row;
+    }
+    .img-wrap{
+        width: 600px;
+        height: 400px;
+    }
+    .made-wrap{
+        width: 516px;
+        height: 400px;
+    }
+    .made-item{
+       width: 425px;
+
     }
 }
 /*------------------------------- PRODUCTS МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
@@ -599,6 +700,20 @@ a {
         flex-direction: row;
         flex-wrap: wrap;
     }
+}
+@media screen and (min-width: 1200px) {
+ .container-products{
+    min-width: 1200px;
+    justify-content: center;
+ }
+ .products-list{
+    width: 1136px;
+    gap:18px;
+ }
+ .products-item{
+    width: 270px;
+height: 364px;
+ }
 }
 /*------------------------------- SELLERS МОБИЛЬНАЯ ВЕРСИЯ---------------------------------*/
 
