@@ -72,8 +72,7 @@ a {
 }
 /*------------------------------------Обнуляющий стиль-------------------------------------*/
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
-.hedader {
-}
+
 .container-hedader {
     display: flex;
     justify-content: space-between;
@@ -103,12 +102,8 @@ a {
 .hedader-logo-link span {
     font-style: italic;
 }
-.header-burger {
-}
-.logo-icon {
-}
-.burger-icon {
-}
+
+
 .hedader-social {
     display: none;
 }
@@ -130,9 +125,7 @@ a {
         line-height: 1.14;
         letter-spacing: -0.02em;
     }
-    .hedader-logo {
-    }
-
+ 
     .hedader-social {
         display: block;
     }
@@ -141,10 +134,7 @@ a {
         align-items: center;
         gap: 14px;
     }
-    .social-item {
-    }
-    .social-item-link {
-    }
+   
     .icon-link {
         stroke: #111;
     }
@@ -178,8 +168,7 @@ a {
     padding-top: 395px;
 }
 
-.container-baner {
-}
+
 .baner-title {
     color: #fff;
     font-size: 20px;
@@ -257,9 +246,7 @@ a {
         border-radius: 30px;
         padding-top: 671px;
     }
-    .container-baner {
-       
-    }
+   
     .baner-title {
         width: 484px;
         font-size: 28px;
@@ -278,10 +265,7 @@ a {
     .baner-btn {
         padding: 0;
     }
-    .baner-scroll {
-    }
-    .baner-scroll {
-    }
+  
 }
 @media screen and (min-width: 1200px) {
 .baner {
@@ -357,8 +341,7 @@ a {
     fill: #fd9222;
 }
 @media screen and (min-width: 768px) {
-    .info-block {
-    }
+   
     .container-info-block {
         min-width: 768px;
         padding: 50px 32px 50px 32px;
@@ -407,8 +390,7 @@ a {
 .tittle-taste span {
     color: #fd9222;
 }
-.container-taste {
-}
+
 .teste-list {
     display: flex;
     flex-direction: column;
@@ -504,10 +486,7 @@ a {
 .made {
     padding-top: 80px;
 }
-.container {
-}
-.container-made {
-}
+
 
 .img-wrap {
     display: flex;
@@ -636,11 +615,8 @@ flex-direction: row;
 .products {
     padding-top: 80px;
 }
-.container {
-}
-.container-products {
-    
-}
+
+
 .tittle-section-subtitle {
     margin-bottom: 2px;
 }
@@ -726,8 +702,6 @@ height: 364px;
 .tittle-sellers span {
     color: #fd9222;
 }
-.sellers-list {
-}
 .sellers-item {
     width: 344px;
     height: 464px;
@@ -803,8 +777,6 @@ height: 364px;
     padding-bottom: 80px;
 }
 
-.container-loved {
-}
 .tittle-loved {
     margin-bottom: 72px;
 }
@@ -894,10 +866,7 @@ height: 364px;
 }
 
 /*------------------------------- FOOTER МОБИЛЬНАЯ ВЕРСИЯ------------------------------*/
-.footer-mobaile {
-}
-.container {
-}
+
 .container-footer {
     display: flex;
     width: 375px;
@@ -907,8 +876,7 @@ height: 364px;
     align-items: flex-start;
     background: #1e1823;
 }
-.tittle-section {
-}
+
 .tittle-footer {
     width: 300px;
     color: #fff;
@@ -941,15 +909,13 @@ height: 364px;
     align-items: flex-start;
     gap: 4px;
 }
-.footer-address-item {
-}
+
 .footer-address-link {
     color: #fff;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
 }
-.footer-soc {
-}
+
 .footer-soc-text {
     color: #fff;
     font-style: normal;
@@ -962,10 +928,7 @@ height: 364px;
     align-items: center;
     gap: 12px;
 }
-.footer-soc-item {
-}
-.footer-soc-link {
-}
+
 .icon-footer {
     stroke: #fafafa;
 }
@@ -983,8 +946,6 @@ height: 364px;
     display: flex;
     flex-direction: column;
     gap: 18px;
-}
-.footer-nav-item {
 }
 .footer-nav-link {
     color: #fff;
