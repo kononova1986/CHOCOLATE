@@ -785,6 +785,8 @@ sellers-item-none{
     }
      .sellers-img {
         width: 368px;
+          overflow: hidden;
+           object-fit: cover;
     }
     .sellers-list{
         width: 1136px;
