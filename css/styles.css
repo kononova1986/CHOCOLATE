@@ -679,12 +679,12 @@ flex-direction: row;
 }
 @media screen and (min-width: 1200px) {
  .container-products{
-    min-width: 1200px;
-    justify-content: center;
+    min-width: 1170px;
  }
  .products-list{
     width: 1136px;
     gap:18px;
+   
  }
  .products-item{
     width: 270px;
@@ -748,6 +748,9 @@ height: 364px;
 .sellers-item-tab {
     display: none;
 }
+sellers-item-none{
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     .sellers {
@@ -768,6 +771,31 @@ height: 364px;
     .tittle-sellers {
         margin-bottom: 50px;
     }
+    .sellers-item-none{
+    display: none;
+}
+}
+@media screen and (min-width: 1200px) {
+    .container-products{
+       min-width: 1170px;
+    }
+    .sellers-item {
+        width: 368px;
+        align-items: center;
+    }
+     .sellers-img {
+        width: 368px;
+    }
+    .sellers-list{
+        width: 1136px;
+        gap: 16px;
+    }
+    .sellers-subtitle{
+        text-align: center;
+    }
+      .sellers-item-none{
+    display: block;
+}
 }
 
 /*------------------------------- LOVED МОБИЛЬНАЯ ВЕРСИЯ------------------------------*/
@@ -843,6 +871,9 @@ height: 364px;
 .item-loved-tab {
     display: none;
 }
+ .item-loved-desktop{
+        display: none;
+    }
 @media screen and (min-width: 768px) {
     .loved {
         padding-top: 100px;
@@ -862,6 +893,28 @@ height: 364px;
     }
     .item-loved {
         width: calc((100% - 16px) / 2);
+    }
+    .item-loved-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-loved {
+        min-width: 1170px;
+    }
+     .item-loved-desktop{
+        display: inline-flex;
+    }
+    .list-loved{
+        width: 1136px;
+    }
+    .item-loved{
+        width: calc((100% - 32px) / 3);
+    }
+    .tittle-loved{
+        padding-top: 100px;
+        padding-bottom: 41px;
     }
 }
 
@@ -1020,23 +1073,44 @@ height: 364px;
     }
     .footer-address-tab,
     .footer-soc-tab {
-        display: block;
+    display: block;
     }
     .footer-soc-tab {
-        margin-right: 32px;
+    margin-right: 32px;
     }
     .footer-address,
     .footer-soc {
         display: none;
     }
     .footer-line {
-        margin-top: 54px;
-        margin-bottom: 32px;
+    margin-top: 54px;
+    margin-bottom: 32px;
     }
     .footer-input {
-        width: 233px;
+    width: 233px;
 }
 .footer-form-btn {
     width: 128px;
 }
+}
+@media screen and (min-width: 1200px) {
+    .container-footer {
+min-width: 1200px;
+    }
+.tittle-footer{
+margin-right: 512px;
+}
+ .footer-nav-list{
+    margin-right: 358px;
+ }
+ .footer-input{
+    width: 313px;
+height: 52px;
+ }
+ .footer-form-btn{
+    border-radius: 100px;
+    padding: 17px 40px;
+    width: 137px;
+    height: 52px;
+ }
 }
