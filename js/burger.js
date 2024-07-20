@@ -4,6 +4,17 @@ const iconX = document.querySelector(".icon");
 const items = document.querySelector(".item-burger");
 const how = document.querySelector(".how");
 const chocolate = document.querySelector(".chocolate");
+const linkmenu = document.querySelectorAll('a[href*="#"]');
+
+for (let link of linkmenu)
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const blockId = link.getAttribute("href");
+    document.querySelector("" + blockId).scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
 
 const closeMenu = () => {
   menu.classList.remove("show-menu");
