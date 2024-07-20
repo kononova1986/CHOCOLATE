@@ -59,17 +59,7 @@ a {
     padding-right: 15px;
     margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 734px;
-    }
-}
 
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-}
 /*------------------------------------Обнуляющий стиль-------------------------------------*/
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
 
@@ -145,7 +135,7 @@ a {
 
 @media screen and (min-width: 1200px) {
     .container-hedader{
-        max-width: 1170px;
+        min-width: 1170px;
         
     }
     .main-mobile{
@@ -238,7 +228,8 @@ a {
         background-position: center;
         background-size: cover;
         margin: 0 auto;
-        width: 704px;
+        width: 100%;
+        max-width: 768px;
         height: 890px;
         background-color: rgba(17, 17, 17, 0.6);
         background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
@@ -272,9 +263,10 @@ a {
         display: flex;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        width: 100%;
+        min-width: 1200px;
         margin: 0 auto;
-        width: 1170px;
+        
         height: 890px;
         background-color: rgba(17, 17, 17, 0.6);
         background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
@@ -359,6 +351,7 @@ a {
    
     .container-info-block {
         min-width: 1200px;
+        background: #1e1823;
        
     }
     .title-info-block-list{
