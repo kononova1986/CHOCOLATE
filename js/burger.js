@@ -1,13 +1,11 @@
 const menu = document.querySelector(".wrap-burger");
 const icon = document.querySelector(".burger-icon-btn");
+const iconX = document.querySelector(".icon");
 
 icon.addEventListener("click", () => {
-  const menu = document.querySelector(".wrap-burger");
-  menu.style.display = "block";
+  menu.classList.add("show-menu");
 });
 
-const iconX = document.querySelector(".icon");
 iconX.addEventListener("click", () => {
-  const menu = document.querySelector(".wrap-burger");
-  menu.style.display = "none";
+  menu.classList.remove("show-menu");
 });

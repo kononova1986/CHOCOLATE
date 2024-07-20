@@ -72,7 +72,7 @@ a {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 14px;
-    align-items: center;
+    width: 335px;
 }
 
 .main-mobile {
@@ -110,32 +110,35 @@ a {
 }
 /*----------------------БУРГУР---------------------------*/
 .wrap-burger {
-    display: none;
+    display: flex;
+    position: relative;
     flex-direction: column;
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1e1823;
-    padding: 16px;
+    transition: top 0.5s;
+    background: #1e1823;
+}
+
+.show-menu {
+    top: 0;
 }
 .container-burger {
-    width: 100%;
-    height: 100%;
     display: flex;
+    min-width: 335px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
-    border: 1px solid #fbfbfb;
-    background: #fbfbfb;
-    padding: 0 20px;
+    margin: 0px auto;
 }
 .list-burger {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    color: #fafafa;
 }
 
 .item-burger {
@@ -144,14 +147,21 @@ a {
     align-items: center;
 }
 .icon {
+    position: absolute;
+    color: #575068;
     border: none;
     outline: none;
     background: none;
     position: absolute;
-    top: 2%;
-    right: 5%;
-    font-size: 24px;
-    font-weight: 400;
+    top: 0%;
+    right: 0%;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 15px;
+}
+.alink {
+    color: #fafafa;
 }
 
 @media screen and (min-width: 768px) {
@@ -211,6 +221,9 @@ a {
     background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)), url(../images/chocolate_main.jpg);
     border-radius: 30px;
     padding-top: 395px;
+}
+.container-baner {
+    max-width: 335px;
 }
 
 .baner-title {
@@ -340,12 +353,14 @@ a {
 
 .info-block {
     padding-top: 80px;
+    min-width: 365px;
 }
 .container-info-block {
     display: flex;
     background: #1e1823;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: center;
 }
 .title-info-block-list {
     display: flex;
@@ -748,6 +763,7 @@ a {
 }
 .sellers-img {
     border-radius: 15px 15px 0px 0px;
+    width: 335px;
 }
 .sellers-text-wrap {
     display: flex;
