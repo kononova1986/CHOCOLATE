@@ -168,8 +168,8 @@ a {
     .wrap-burger {
         display: none;
     }
-    .container {
-        max-width: 734px;
+    .container-hedader {
+        min-width: 734px;
     }
     .main-list {
         display: flex;
@@ -503,6 +503,9 @@ a {
     display: none;
 }
 @media screen and (min-width: 768px) {
+    .container-taste {
+        min-width: 734px;
+    }
     .teste-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -613,6 +616,9 @@ a {
 @media screen and (min-width: 768px) {
     .made {
         padding-top: 100px;
+    }
+    .container-made {
+        min-width: 734px;
     }
     .img-wrap {
         width: 600px;
@@ -726,6 +732,9 @@ a {
     .products-list {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .container-products {
+        min-width: 734px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -931,6 +940,9 @@ sellers-item-none {
     .loved {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+    .container-loved {
+        min-width: 734px;
     }
     .item-loved-tab {
         display: flex;
