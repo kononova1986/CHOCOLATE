@@ -14,7 +14,7 @@ body {
     font-size: 14px;
     font-style: normal;
     background-color: #fafafa;
-    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 h1,
@@ -53,11 +53,27 @@ a {
 }
 
 .container {
-    width: 100%;
-    max-width: 365px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
+    padding: 0 15px;
+    max-width: 365px;
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
 }
 .button {
     border: none;
@@ -66,7 +82,25 @@ a {
 
 /*------------------------------------Обнуляющий стиль-------------------------------------*/
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
-
+.up {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd9222;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 999;
+    color: #ffffff;
+    font-size: 12px;
+    right: 10%;
+}
+.container-up {
+    position: relative;
+    z-index: 999;
+}
 .container-hedader {
     display: flex;
     justify-content: space-between;

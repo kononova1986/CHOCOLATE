@@ -6,6 +6,16 @@ const how = document.querySelector(".how");
 const chocolate = document.querySelector(".chocolate");
 const linkmenu = document.querySelectorAll('a[href*="#"]');
 
+const btn = document.querySelector(".btn-baner-buy");
+const products = document.querySelector(".products");
+
+btn.addEventListener("click", () => {
+  products.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
 for (let link of linkmenu)
   link.addEventListener("click", function (e) {
     e.preventDefault();
