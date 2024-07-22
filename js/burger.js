@@ -8,9 +8,17 @@ const linkmenu = document.querySelectorAll('a[href*="#"]');
 
 const btn = document.querySelector(".btn-baner-buy");
 const products = document.querySelector(".products");
-
 btn.addEventListener("click", () => {
   products.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
+const up = document.querySelector(".up");
+const hedader = document.querySelector(".hedader");
+up.addEventListener("click", () => {
+  hedader.scrollIntoView({
     behavior: "smooth",
     block: "start",
   });

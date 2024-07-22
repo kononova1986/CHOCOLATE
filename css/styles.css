@@ -82,31 +82,57 @@ main {
 
 /*------------------------------------Обнуляющий стиль-------------------------------------*/
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
-.up {
+.btn {
     position: fixed;
+    bottom: 85px;
+    right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+}
+.up {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fd9222;
+    background-color: #fd9222;
+    opacity: 0.7;
+    font-weight: 500;
+    line-height: normal;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fd9222;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
-    z-index: 999;
-    color: #ffffff;
-    font-size: 12px;
-    right: 10%;
+    z-index: 2;
+    color: black;
 }
-.container-up {
-    position: relative;
-    z-index: 999;
+.up a {
+    width: 20px;
+    height: 20px;
+}
+.icon-foo {
+    opacity: 0.7;
+    stroke: black;
+}
+.icon-foo:hover {
+    stroke: white;
+}
+.up:hover {
+    background-color: #fd9222;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.icon {
+    fill: #fff;
 }
 .container-hedader {
     display: flex;
+
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 14px;
-    width: 335px;
 }
 
 .main-mobile {
@@ -236,7 +262,7 @@ main {
 
 @media screen and (min-width: 1200px) {
     .container-hedader {
-        min-width: 1170px;
+        max-width: 1170px;
     }
     .main-mobile {
         margin-right: 412px;
@@ -359,7 +385,6 @@ main {
         padding: 0;
     }
     .container-baner {
-        width: 740px;
         margin: 0;
     }
 }
@@ -368,20 +393,13 @@ main {
         display: flex;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
-        min-width: 1200px;
-        margin: 0 auto;
-
-        height: 890px;
+        max-width: 1200px;
         background-color: rgba(17, 17, 17, 0.6);
         background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main.desctop.jpg);
         border-radius: 30px;
-        padding-top: 671px;
     }
     .container-baner {
-        width: 1056px;
-        height: 179px;
         margin: 0 40px;
     }
     .baner-btn-tab {
@@ -441,7 +459,6 @@ main {
 }
 @media screen and (min-width: 768px) {
     .container-info-block {
-        min-width: 768px;
         padding: 50px 32px 50px 32px;
     }
     .title-info-block-list {
@@ -455,7 +472,6 @@ main {
 }
 @media screen and (min-width: 1200px) {
     .container-info-block {
-        min-width: 1200px;
         background: #1e1823;
     }
     .title-info-block-list {
@@ -543,7 +559,6 @@ main {
 }
 @media screen and (min-width: 768px) {
     .container-taste {
-        min-width: 734px;
     }
     .teste-list {
         flex-direction: row;
@@ -560,8 +575,6 @@ main {
 
 @media screen and (min-width: 1200px) {
     .container-taste {
-        min-width: 1200px;
-        margin: 0 auto;
     }
     .teste-list {
         width: 1136px;
@@ -657,7 +670,6 @@ main {
         padding-top: 100px;
     }
     .container-made {
-        min-width: 734px;
     }
     .img-wrap {
         width: 600px;
@@ -690,7 +702,6 @@ main {
 }
 @media screen and (min-width: 1200px) {
     .container-made {
-        min-width: 1200px;
     }
     .inline-made {
         display: flex;
@@ -773,12 +784,10 @@ main {
         flex-wrap: wrap;
     }
     .container-products {
-        min-width: 734px;
     }
 }
 @media screen and (min-width: 1200px) {
     .container-products {
-        min-width: 1170px;
     }
     .products-list {
         width: 1136px;
@@ -876,7 +885,6 @@ sellers-item-none {
 }
 @media screen and (min-width: 1200px) {
     .container-products {
-        min-width: 1170px;
     }
     .sellers-item {
         width: 368px;
@@ -981,7 +989,7 @@ sellers-item-none {
         padding-bottom: 100px;
     }
     .container-loved {
-        min-width: 734px;
+        padding-top: 80px;
     }
     .item-loved-tab {
         display: flex;
@@ -1005,7 +1013,6 @@ sellers-item-none {
 
 @media screen and (min-width: 1200px) {
     .container-loved {
-        min-width: 1170px;
     }
     .item-loved-desktop {
         display: inline-flex;
@@ -1026,7 +1033,6 @@ sellers-item-none {
 
 .container-footer {
     display: flex;
-    width: 375px;
     height: 601px;
     padding: 32px 20px;
     flex-direction: column;
@@ -1151,7 +1157,6 @@ sellers-item-none {
 
 @media screen and (min-width: 768px) {
     .container-footer {
-        min-width: 768px;
         height: 291px;
         flex-wrap: wrap;
         flex-direction: row;
@@ -1199,7 +1204,6 @@ sellers-item-none {
 }
 @media screen and (min-width: 1200px) {
     .container-footer {
-        min-width: 1200px;
     }
     .tittle-footer {
         margin-right: 512px;
