@@ -84,6 +84,7 @@ main {
 /*------------------------------------ШАПКА САЙТА-------------------------------------*/
 .btn {
     position: fixed;
+    opacity: 0;
     bottom: 85px;
     right: 30px;
     display: flex;
@@ -98,7 +99,7 @@ main {
     border: 1px solid #fd9222;
     background-color: #fd9222;
     opacity: 0.7;
-    font-weight: 500;
+    font-weight: 100;
     line-height: normal;
     width: 50px;
     height: 50px;
@@ -106,27 +107,26 @@ main {
     align-items: center;
     justify-content: center;
     z-index: 2;
-    color: black;
+    color: white;
 }
 .up a {
     width: 20px;
     height: 20px;
 }
 .icon-foo {
+    stroke-width: 1.4gipx;
     opacity: 0.7;
-    stroke: black;
+    stroke: white;
 }
 .icon-foo:hover {
-    stroke: white;
+    stroke: black;
 }
 .up:hover {
     background-color: #fd9222;
     opacity: 1;
-    color: rgb(255, 255, 255);
+    color: black;
 }
-.icon {
-    fill: #fff;
-}
+
 .container-hedader {
     display: flex;
 

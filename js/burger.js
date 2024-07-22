@@ -34,6 +34,11 @@ for (let link of linkmenu)
     });
   });
 
+const btnUp = document.querySelector(".btn");
+window.addEventListener("scroll", () => {
+  btnUp.style.opacity = "1";
+});
+
 const closeMenu = () => {
   menu.classList.remove("show-menu");
 };
